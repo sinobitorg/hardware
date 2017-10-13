@@ -1,0 +1,4 @@
+1¡¢LED-Matrix.cpp use Microsoft MBED web complier that include microbit lib, and it is easy to develop app.
+Link:https://os.mbed.com/compiler/
+2¡¢If you want to test other function,please use Makecode web complier:
+Link:https://makecode.microbit.org/

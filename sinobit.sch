@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2789,7 +2789,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <smd name="P$57" x="-7.25" y="4.65" dx="1.7" dy="0.4" layer="1" rot="R180"/>
 <smd name="P$58" x="-7.25" y="5.65" dx="1.7" dy="0.4" layer="1" rot="R180"/>
 <smd name="P$59" x="-7.25" y="6.65" dx="1.7" dy="0.4" layer="1" rot="R180"/>
-<circle x="-5.05" y="-4.95" radius="0.360553125" width="0.4064" layer="21"/>
+<circle x="-5.05" y="6.48" radius="0.360553125" width="0.4064" layer="21"/>
 </package>
 <package name="SWITC4.5X4.5">
 <wire x1="0" y1="0" x2="0" y2="4.5" width="0.127" layer="21"/>
