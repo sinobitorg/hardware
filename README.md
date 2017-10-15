@@ -4,8 +4,7 @@ A single-board microcontroller for computer education in China
 <img width="100%" alt="sino:bit v1" src="https://i.imgur.com/9ZUII7i.jpg">
 
 
-The sino:bit is the first Chinese OSHWA Certified project:
-
+The sino:bit is the first Chinese OSHWA Certified project:<br>
 <img alt="OSHWA Cert" src="https://i.imgur.com/yR0xlJn.png">
 
 ## Contents
