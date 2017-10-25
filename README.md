@@ -76,6 +76,7 @@ The sino:bit was created by [Naomi Wu](http://www.youtube.com/c/SexyCyborg), an 
 
 八卦单机板是由[Naomi Wu](http://www.youtube.com/c/SexyCyborg)所构思，一位开源硬件的传道者和DIY爱好者。由深圳本地为创客和硬件爱好者提供以合同形式的代工业务的电子公司[Elecrow Technology](https://www.elecrow.com)设计制作。
 
-## License 
+## License 许可协议
 
 This software is licensed under the MIT License.
+此软件请参考MIT软件许可协议
