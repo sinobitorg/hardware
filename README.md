@@ -73,7 +73,7 @@ The execution of characters, the art of calligraphy, the proper structure of poe
 
 The sino:bit was created by [Naomi Wu](http://www.youtube.com/c/SexyCyborg), an Open Source Hardware evangelist and DIY enthusiast. It was executed and engineered by [Elecrow Technology](https://www.elecrow.com), a Shenzhen based electronics company that offers contract manufacturing and engineering services to Maker and Hardware Enthusiasts.
 
-八卦单机板是由[Naomi Wu](http://www.youtube.com/c/SexyCyborg)所构思，一位开源硬件的传道者和DIY爱好者。由深圳本地为创客和硬件爱好者以合同形式的代工业务电子公司[Elecrow Technology](https://www.elecrow.com)提供设计制作。
+八卦单机板是由[Naomi Wu](http://www.youtube.com/c/SexyCyborg)所构思，一位开源硬件的传道者和DIY爱好者。由深圳本地为创客和硬件爱好者以合同形式提供代工业务的电子公司[Elecrow Technology](https://www.elecrow.com)所设计制作。
 
 ## License 许可协议
 
