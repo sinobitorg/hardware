@@ -15,7 +15,7 @@ The sino:bit is the first Chinese OSHWA Certified project:<br>
   - [Why it was created 创造原因](#why-it-was-created)
   - [What it means 八卦单机板被制作的意义](#what-it-means)
   - [Who are we 我们是谁](#who-are-we)
-- [License 我们是谁](#license)
+- [License](#license)
 
 
 ## Introduction 介绍
