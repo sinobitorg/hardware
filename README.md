@@ -22,26 +22,34 @@ The sino:bit is the first Chinese OSHWA Certified project:<br>
 
 ### What it is 它是什么
 
-The sino:bit a single-board microcontroller designed for computer education in China. It is based on the [Calliope mini](https://calliope.cc) with permission of the [Calliope mini project](https://github.com/calliope-mini/).<br> 
-While several modifications are planned, the first was to upgrade the LED matrix from 5x5 to 12x12. This allows for support of Chinese, Japanese, Hindi, Arabic and other non-Latin character based languages. Without this, the vast majority of the World's children cannot experience the thrill of that first "Hello World" in their own language.<br>
-八卦单机板是为中国打造的一款微型可编程计算机。是基于德国的 [Calliope mini](https://calliope.cc)官方准许后衍生出来的项目。在构思中国版本的时候有几个想法，其中一点就是把原有的5X5LED矩阵改为12X12。这样可支持多国语言，不仅只是英语，也可以显示中文，日本，印度语，阿拉伯语和其他不以拉丁语为基础的语言。如果保留原有的只是5X5矩阵，其他国家的孩子就无法体验到第一次显示屏弹出他们自己语言的“Hello, World”的那种激动兴奋的心情。
+The sino:bit a single-board microcontroller designed for computer education in China. It is based on the [Calliope mini](https://calliope.cc) with permission of the [Calliope mini project](https://github.com/calliope-mini/).
 
+While several modifications are planned, the first was to upgrade the LED matrix from 5x5 to 12x12. This allows for support of Chinese, Japanese, Hindi, Arabic and other non-Latin character based languages. Without this, the vast majority of the World's children cannot experience the thrill of that first "Hello World" in their own language.
+
+八卦单机板是为中国打造的一款微型可编程计算机。是基于德国的 [Calliope mini](https://calliope.cc)官方准许后衍生出来的项目。在构思中国版本的时候有几个想法，其中一点就是把原有的5X5LED矩阵改为12X12。这样可支持多国语言，不仅只是英语，也可以显示中文，日本，印度语，阿拉伯语和其他不以拉丁语为基础的语言。如果保留原有的只是5X5矩阵，其他国家的孩子就无法体验到第一次显示屏弹出他们自己语言的“Hello, World”的那种激动兴奋的心情。
 
 ### Why it was created 创造原因
 
-China has two issues to deal with in computer education. The first is the same as everyplace else in the world- the process of teaching coding and hardware fundamentals. The second is somewhat more unique to China and it's a problem we are known around the World for. How we copy. Children need to learn when we can copy, how we copy, and what our obligations are when we copy. Not out of any abstract moral obligation- but because copying and poor habits related to IP is standing in the way of China progressing economically.<br>
+China has two issues to deal with in computer education. The first is the same as everyplace else in the world- the process of teaching coding and hardware fundamentals. The second is somewhat more unique to China and it's a problem we are known around the World for. How we copy. Children need to learn when we can copy, how we copy, and what our obligations are when we copy. Not out of any abstract moral obligation- but because copying and poor habits related to IP is standing in the way of China progressing economically.
+
+If the quality and creativity of our engineering is going to improve, we need to begin teaching Open Source citizenship at a younger age. We cannot wait until engineers are graduating college to introduce them to the values of Open Source, by then habits are set and we have seen they are nearly impossible to change. This is a lesson that needs to be taught alongside other computing fundamentals from the time students are in primary school.
+
+Our goal is that the sino:bit lineage- what it is derived from, what that means, and why Open Source is valuable; be taught from the beginning before a student writes their first line of code.
+
+
+Original BBC micro:bits, in addition to not supporting Chinese language display, cannot compete on cost with locally made, license violating clones. Using these clones sets the worse possible example.
+
+
+What China needs is an Open Source board priced appropriately for our level of economic development- cost-effective enough to supply one to every child as part of a nationally standardized curriculum, that is fully compliant with Open Source licenses and community standards.
+
 在中国进行电脑教育面临着两大主要问题。第一个跟全世界一样的问题-利用更好的方法和途径去教育编程和硬件基础知识。第二个是相比较下针对中国的问题也因为如此被世界所闻，就是我们复制的方式。孩子需要有意识地知道我们应该什么时候复制，采用怎样的方式复制，还有了解作为复制者我们有着什么相应的义务。不是那种抽象的道德义务-而是因为如果我们完全复制的坏习惯与IP密切关联阻挡了中国发展的道路。
 
-If the quality and creativity of our engineering is going to improve, we need to begin teaching Open Source citizenship at a younger age. We cannot wait until engineers are graduating college to introduce them to the values of Open Source, by then habits are set and we have seen they are nearly impossible to change. This is a lesson that needs to be taught alongside other computing fundamentals from the time students are in primary school.<br> 
 如果中国真心想提高工程师的质量和创造力，那么我们必须从娃娃抓起讲授开源并引导其成为一份子。要是等到工程师毕业以后才开始向他们介绍开源的核心价值观，那就为时已晚了，习惯一旦形成是很难被改变的。所以就应当把小学作为起点在教育电脑基础知识的同时教育他们开源的概念。
 
-Our goal is that the sino:bit lineage- what it is derived from, what that means, and why Open Source is valuable; be taught from the beginning before a student writes their first line of code.<br>
 根据中华文化这块八卦板的最好的教育方式应该是从渊源入手-讲述它的来源，它的意义，它的开源价值；应该在学生写他们第一行代码前开始传授那些知识。
 
-Original BBC micro:bits, in addition to not supporting Chinese language display, cannot compete on cost with locally made, license violating clones. Using these clones sets the worse possible example.<br>
 原始的BBC micro:bit不但无法显示中文，在价格上也无法本地制造商竞争，所以被山寨者在不遵守一定条例下肆意利用。使用这些山寨品来教育孩子是最坏的例子。
 
-What China needs is an Open Source board priced appropriately for our level of economic development- cost-effective enough to supply one to every child as part of a nationally standardized curriculum, that is fully compliant with Open Source licenses and community standards.<br> 
 中国所需的开源教育开发板的价格应该以我们的经济发展水平作为参考-为了每个孩子都能够利用八卦单机板去学习而且被纳入所有学校课程教育的一部分，价格应该是合理划算的。
 
 
