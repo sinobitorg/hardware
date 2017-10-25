@@ -13,7 +13,7 @@ The sino:bit is the first Chinese OSHWA Certified project:<br>
 - [Introduction 介绍](#introduction)
   - [What it is 它是什么](#what-it-is-it)
   - [Why it was created 创造原因](#why-it-was-created)
-  - [What it means 八卦单机板被制作的意义](#what-it-means)
+  - [What it means 八卦单机板的意义](#what-it-means)
   - [Who are we 我们是谁](#who-are-we)
 - [License 许可协议](#license)
 
@@ -26,7 +26,7 @@ The sino:bit a single-board microcontroller designed for computer education in C
 
 While several modifications are planned, the first was to upgrade the LED matrix from 5x5 to 12x12. This allows for support of Chinese, Japanese, Hindi, Arabic and other non-Latin character based languages. Without this, the vast majority of the World's children cannot experience the thrill of that first "Hello World" in their own language.
 
-八卦单机板是为中国打造的一款微型可编程计算机。是基于德国的 [Calliope mini](https://calliope.cc)官方准许后衍生出来的项目。在构思中国版本的时候有几个想法，其中一点就是把原有的5X5LED矩阵改为12X12。这样可支持多国语言，不仅只是英语，也可以显示中文，日本，印度语，阿拉伯语和其他不以拉丁语为基础的语言。如果保留原有的只是5X5矩阵，其他国家的孩子就无法体验到第一次显示屏弹出他们自己语言的“Hello, World”的那种激动兴奋的心情。
+八卦单机板是为中国打造的一款微型可编程计算机。是基于德国的 [Calliope mini](https://calliope.cc)获得官方准许后衍生出来的项目。在构思中国版本的时候有几个想法，其中一点就是把原有的5X5LED矩阵改为12X12。这样可支持多国语言，不仅只是英语，也可以显示中文，日本，印度语，阿拉伯语和其他不以拉丁语为基础的语言。如果保留原有的只是5X5矩阵，其他国家的孩子就无法体验到第一次显示屏弹出他们自己语言的“Hello, World”的那种激动兴奋的心情。
 
 ### Why it was created 创造原因
 
@@ -51,7 +51,7 @@ What China needs is an Open Source board priced appropriately for our level of e
 中国所需的开源教育开发板的价格应该以我们的经济发展水平作为参考-为了每个孩子都能够利用八卦单机板去学习而且被纳入所有学校课程教育的一部分，价格应该是合理划算的。
 
 
-### What it means 八卦单机板被制作的意义
+### What it means 八卦单机板的意义
 
 Because much of technical education in China originates in the West, Chinese design and UI principles are usually absent.  Culturally the West favors black and grey, China is far more fond of red and gold. Time and text in the West go from left to right- traditionally in China it is top to bottom. 
 
@@ -73,7 +73,7 @@ The execution of characters, the art of calligraphy, the proper structure of poe
 
 The sino:bit was created by [Naomi Wu](http://www.youtube.com/c/SexyCyborg), an Open Source Hardware evangelist and DIY enthusiast. It was executed and engineered by [Elecrow Technology](https://www.elecrow.com), a Shenzhen based electronics company that offers contract manufacturing and engineering services to Maker and Hardware Enthusiasts.
 
-八卦单机板是由[Naomi Wu](http://www.youtube.com/c/SexyCyborg)所构思，一位开源硬件的传道者和DIY爱好者。由深圳本地为创客和硬件爱好者提供以合同形式的代工业务的电子公司[Elecrow Technology](https://www.elecrow.com)设计制作。
+八卦单机板是由[Naomi Wu](http://www.youtube.com/c/SexyCyborg)所构思，一位开源硬件的传道者和DIY爱好者。由深圳本地为创客和硬件爱好者以合同形式的代工业务电子公司[Elecrow Technology](https://www.elecrow.com)提供设计制作。
 
 ## License 许可协议
 
