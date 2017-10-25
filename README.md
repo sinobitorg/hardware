@@ -36,9 +36,7 @@ If the quality and creativity of our engineering is going to improve, we need to
 
 Our goal is that the sino:bit lineage- what it is derived from, what that means, and why Open Source is valuable; be taught from the beginning before a student writes their first line of code.
 
-
 Original BBC micro:bits, in addition to not supporting Chinese language display, cannot compete on cost with locally made, license violating clones. Using these clones sets the worse possible example.
-
 
 What China needs is an Open Source board priced appropriately for our level of economic development- cost-effective enough to supply one to every child as part of a nationally standardized curriculum, that is fully compliant with Open Source licenses and community standards.
 
@@ -56,22 +54,26 @@ What China needs is an Open Source board priced appropriately for our level of e
 ### What it means 八卦单机板被制作的意义
 
 Because much of technical education in China originates in the West, Chinese design and UI principles are usually absent.  Culturally the West favors black and grey, China is far more fond of red and gold. Time and text in the West go from left to right- traditionally in China it is top to bottom. 
+
+With tech such a large part of our lives, and nearly all that tech Western in design and functionality, "modern" becomes synonymous with "Western" and we lose something of our history and culture. It's knives and forks instead of chopsticks, it's a latte in a mug instead of a red clay pot of Pu'er tea. All minor things, but it's a little bit of ourselves being chipped away every day. If the opportunity arises to reincorporate elements of our rich cultural tradition and offer it to children- it is essential to seize it.
+
+The octagonal shape of the sino:bit is based on the Bagua- the eight trigrams used in Taoist cosmology and ancient Chinese philosophy. The Bagua is also an essential tool in Feng Shui and offers a chance for older family members to share this knowledge with young people- even collaborating with them to implement these traditions in electronic form.
+
+The execution of characters, the art of calligraphy, the proper structure of poems and idioms- these are all aspects of education that receive far more emphasis in China than the West. The written word is such an essential part of Chinese education and culture, the loss in teaching without it cannot be underestimated, and the benefits to having hardware that supports its display cannot be overstated.<br>
+
 因为目前许多在中国关于科学科技的教育都是来源于西方，相比下来中国的设计和UI都是凤毛麟角的。文化上西方偏向黑色和灰色，中国人更喜欢红色和金色。时间和文字在西方的顺序是从左到右罗列的，而在中国传统文化里面是由上到下排列。
 
-With tech such a large part of our lives, and nearly all that tech Western in design and functionality, "modern" becomes synonymous with "Western" and we lose something of our history and culture. It's knives and forks instead of chopsticks, it's a latte in a mug instead of a red clay pot of Pu'er tea. All minor things, but it's a little bit of ourselves being chipped away every day. If the opportunity arises to reincorporate elements of our rich cultural tradition and offer it to children- it is essential to seize it.<br>
 科技已经成为我们生活不可分割的一部分了，几乎所有我们周围的电子科技设计和性能都是西方化的，“现代化”这个词就等同于“西方化”，我们丢失了自己的一部分历史还有文化。刀叉代替了筷子，装在马克杯里的拿铁代替了红色陶瓷杯里的普洱茶。这些看起来不起眼的事情，但却每天一点点的在侵蚀我们的生活。如果我们有机会把我们伟大的传统文化与现代科技相结合起来教育培养我们的孩子-我们应该及时抓住这个机会
 
-The octagonal shape of the sino:bit is based on the Bagua- the eight trigrams used in Taoist cosmology and ancient Chinese philosophy. The Bagua is also an essential tool in Feng Shui and offers a chance for older family members to share this knowledge with young people- even collaborating with them to implement these traditions in electronic form.<br>
 这块开发板就跟它的名字一样是根据我国八卦形状所设计的-八卦一直对道家的宇宙观
 和中国的传统哲学有着深远的影响。八卦是风水学中的重要工具，所以我们的八卦开发板有助于老一辈和其他年轻的家庭成员分享这个知识-即使需要把这个知识融入到电子产品这个形式去达到目的。
 
-The execution of characters, the art of calligraphy, the proper structure of poems and idioms- these are all aspects of education that receive far more emphasis in China than the West. The written word is such an essential part of Chinese education and culture, the loss in teaching without it cannot be underestimated, and the benefits to having hardware that supports its display cannot be overstated.<br>
-使用文字传递信息。每个字在不同人的手下都有独特的形态和神韵，诗与成语-它们在中国的教育中比在西方教育中起到更加强大的作用。很多人往往忽视了文字文体在中国人眼中的重要性。如果不能使用现代教育工具去显示我们国家的文字，那些教育工具对于我们来说并非举足轻重的。
-       
+使用文字传递信息。每个字在不同人的手下都有独特的形态和神韵，诗与成语-它们在中国的教育中比在西方教育中起到更加强大的作用。很多人往往忽视了文字文体在中国人眼中的重要性。如果不能使用现代教育工具去显示我们国家的文字，那些教育工具对于我们来说并非举足轻重的。     
        
 ### Who are we 我们是谁
 
-The sino:bit was created by [Naomi Wu](http://www.youtube.com/c/SexyCyborg), an Open Source Hardware evangelist and DIY enthusiast. It was executed and engineered by [Elecrow Technology](https://www.elecrow.com), a Shenzhen based electronics company that offers contract manufacturing and engineering services to Maker and Hardware Enthusiasts.<br>
+The sino:bit was created by [Naomi Wu](http://www.youtube.com/c/SexyCyborg), an Open Source Hardware evangelist and DIY enthusiast. It was executed and engineered by [Elecrow Technology](https://www.elecrow.com), a Shenzhen based electronics company that offers contract manufacturing and engineering services to Maker and Hardware Enthusiasts.
+
 八卦单机板是由[Naomi Wu](http://www.youtube.com/c/SexyCyborg)所构思，一位开源硬件的传道者和DIY爱好者。由深圳本地为创客和硬件爱好者提供以合同形式的代工业务的电子公司[Elecrow Technology](https://www.elecrow.com)设计制作。
 
 ## License 
