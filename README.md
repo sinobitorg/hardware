@@ -23,6 +23,7 @@ The sino:bit is the first Chinese OSHWA Certified project:<br>
 ### What it is 它是什么
 
 The sino:bit a single-board microcontroller designed for computer education in China. It is based on the [Calliope mini](https://calliope.cc) with permission of the [Calliope mini project](https://github.com/calliope-mini/).<br> 
+While several modifications are planned, the first was to upgrade the LED matrix from 5x5 to 12x12. This allows for support of Chinese, Japanese, Hindi, Arabic and other non-Latin character based languages. Without this, the vast majority of the World's children cannot experience the thrill of that first "Hello World" in their own language.<br>
 八卦单机板是为中国打造的一款微型可编程计算机。是基于德国的 [Calliope mini](https://calliope.cc)官方准许后衍生出来的项目。在构思中国版本的时候有几个想法，其中一点就是把原有的5X5LED矩阵改为12X12。这样可支持多国语言，不仅只是英语，也可以显示中文，日本，印度语，阿拉伯语和其他不以拉丁语为基础的语言。如果保留原有的只是5X5矩阵，其他国家的孩子就无法体验到第一次显示屏弹出他们自己语言的“Hello, World”的那种激动兴奋的心情。
 
 
