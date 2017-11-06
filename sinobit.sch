@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2733,8 +2733,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </package>
 <package name="HT1632C">
 <wire x1="7.65" y1="-6.35" x2="-5.85" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-5.85" y1="-6.35" x2="-6.35" y2="-5.85" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-5.85" x2="-6.35" y2="7.65" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="7.65" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="7.65" x2="7.65" y2="7.65" width="0.127" layer="21"/>
 <wire x1="7.65" y1="7.65" x2="7.65" y2="-6.35" width="0.127" layer="21"/>
 <smd name="P$8" x="-5.35" y="-7.25" dx="1.7" dy="0.4" layer="1" rot="R90"/>
@@ -2790,16 +2789,17 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <smd name="P$58" x="-7.25" y="5.65" dx="1.7" dy="0.4" layer="1" rot="R180"/>
 <smd name="P$59" x="-7.25" y="6.65" dx="1.7" dy="0.4" layer="1" rot="R180"/>
 <circle x="-5.05" y="6.48" radius="0.360553125" width="0.4064" layer="21"/>
+<wire x1="-5.8674" y1="-6.35" x2="-6.35" y2="-6.35" width="0.127" layer="21"/>
 </package>
 <package name="SWITC4.5X4.5">
 <wire x1="0" y1="0" x2="0" y2="4.5" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="4.5" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="4.5" x2="4.5" y2="4.5" width="0.127" layer="21"/>
 <wire x1="4.5" y1="4.5" x2="4.5" y2="0" width="0.127" layer="21"/>
-<smd name="P$1" x="0.3" y="3.8" dx="1.3" dy="0.9" layer="1"/>
-<smd name="P$2" x="0.3" y="0.8" dx="1.3" dy="0.9" layer="1"/>
-<smd name="P$3" x="4.3" y="0.8" dx="1.3" dy="0.9" layer="1"/>
-<smd name="P$4" x="4.3" y="3.8" dx="1.3" dy="0.9" layer="1"/>
+<smd name="P$1" x="-0.5" y="3.8" dx="1.3" dy="0.9" layer="1"/>
+<smd name="P$2" x="-0.5" y="0.8" dx="1.3" dy="0.9" layer="1"/>
+<smd name="P$3" x="5.1" y="0.8" dx="1.3" dy="0.9" layer="1"/>
+<smd name="P$4" x="5.1" y="3.8" dx="1.3" dy="0.9" layer="1"/>
 <circle x="2.2" y="2.3" radius="1.0295625" width="0.127" layer="21"/>
 </package>
 <package name="PS7516">
@@ -3960,10 +3960,10 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <part name="EB141" library="Discrete" deviceset="007-LED*" device="0603" value="RED"/>
 <part name="EB142" library="Discrete" deviceset="007-LED*" device="0603" value="RED"/>
 <part name="EB143" library="Discrete" deviceset="007-LED*" device="0603" value="RED"/>
-<part name="U$13" library="mirco：bit" deviceset="IC_MMA8653FCR1" device=""/>
+<part name="U14" library="mirco：bit" deviceset="IC_MMA8653FCR1" device=""/>
 <part name="U2" library="mirco：bit" deviceset="IC_MAG3110FCR1" device=""/>
 <part name="U6" library="mirco：bit" deviceset="IC_NRF51822_MODULE" device=""/>
-<part name="U$7" library="Modulebit_open_Eagle" deviceset="IC_MKL26Z128VFM4" device=""/>
+<part name="U12" library="Modulebit_open_Eagle" deviceset="IC_MKL26Z128VFM4" device=""/>
 <part name="C1" library="Discrete" deviceset="C*" device="-0402" value="4.7uf"/>
 <part name="C2" library="Discrete" deviceset="C*" device="-0402" value="100nf"/>
 <part name="C3" library="Discrete" deviceset="C*" device="-0402" value="100nf"/>
@@ -4093,19 +4093,19 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </part>
 <part name="USB" library="Calliope" deviceset="47642-0001" device="" value="47642-0001"/>
 <part name="U$3" library="Power or GND " deviceset="GND_POWER" device="" value="GND"/>
-<part name="R26" library="Discrete" deviceset="R*" device="-0402" value="3.3M"/>
-<part name="R28" library="Discrete" deviceset="R*" device="-0402" value="3.3M"/>
-<part name="R29" library="Discrete" deviceset="R*" device="-0402" value="3.3M"/>
-<part name="R30" library="Discrete" deviceset="R*" device="-0402" value="3.3M"/>
-<part name="R31" library="Discrete" deviceset="R*" device="-0402" value="3.3M"/>
-<part name="R32" library="Discrete" deviceset="R*" device="-0402" value="3.3M"/>
+<part name="R26" library="Discrete" deviceset="R*" device="-0402" value="2M"/>
+<part name="R28" library="Discrete" deviceset="R*" device="-0402" value="2M"/>
+<part name="R29" library="Discrete" deviceset="R*" device="-0402" value="2M"/>
+<part name="R30" library="Discrete" deviceset="R*" device="-0402" value="2M"/>
+<part name="R31" library="Discrete" deviceset="R*" device="-0402" value="2M"/>
+<part name="R32" library="Discrete" deviceset="R*" device="-0402" value="2M"/>
 <part name="V_TGT12" library="supply1" deviceset="VCC" device=""/>
-<part name="U$4" library="microbit2" deviceset="PS7516" device=""/>
+<part name="U16" library="microbit2" deviceset="PS7516" device=""/>
 <part name="C26" library="Discrete" deviceset="C*" device="-0402" value="0.1uF"/>
 <part name="C27" library="Discrete" deviceset="C*" device="-0402" value="10uF"/>
 <part name="C28" library="Discrete" deviceset="C*" device="-0402" value="0.1uF"/>
-<part name="C33" library="Discrete" deviceset="C*" device="-0402" value="22uF"/>
-<part name="R33" library="Discrete" deviceset="R*" device="-0402" value="525K"/>
+<part name="C33" library="Discrete" deviceset="C*" device="-0402" value="10uF"/>
+<part name="R33" library="Discrete" deviceset="R*" device="-0402" value="510k"/>
 <part name="R34" library="Discrete" deviceset="R*" device="-0402" value="100K"/>
 <part name="L4" library="OPL Eagle Library" deviceset="L*" device="-0603" value="10uH"/>
 <part name="U$5" library="Power or GND " deviceset="GND_POWER" device="" value="GND"/>
@@ -4119,7 +4119,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <part name="V_TGT14" library="supply1" deviceset="VCC" device=""/>
 <part name="R37" library="Discrete" deviceset="R*" device="-0402" value="200R"/>
 <part name="LED1" library="Discrete" deviceset="007-LED*" device="0603" value="green"/>
-<part name="U$6" library="microbit2" deviceset="TIANXIAN" device=""/>
+<part name="U11" library="microbit2" deviceset="TIANXIAN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4159,17 +4159,17 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <text x="402.59" y="70.485" size="2.54" layer="94" font="vector">FILE: sinobit</text>
 <wire x1="435.61" y1="63.5" x2="435.61" y2="53.34" width="0.3048" layer="94"/>
 <text x="402.59" y="59.69" size="1.524" layer="94" font="vector">Design :</text>
-<text x="439.42" y="54.61" size="1.524" layer="94" font="vector">sheet :</text>
+<text x="438.15" y="54.61" size="1.524" layer="94" font="vector">Sheet :</text>
 <text x="402.59" y="54.61" size="1.524" layer="94" font="vector">Date :</text>
-<text x="439.42" y="59.69" size="1.524" layer="94" font="vector">Vision :</text>
-<text x="414.02" y="59.69" size="1.524" layer="94" font="vector">Engle&amp;Keen</text>
+<text x="438.15" y="59.69" size="1.524" layer="94" font="vector">Vision :</text>
+<text x="414.02" y="59.69" size="1.524" layer="94" font="vector">Elecrow</text>
 <text x="449.58" y="59.69" size="1.524" layer="94" font="vector">v1.0</text>
 <text x="411.48" y="54.61" size="1.524" layer="94" font="vector">9/20/2017</text>
 <text x="448.31" y="54.61" size="1.524" layer="94" font="vector">1/1</text>
 <wire x1="118.11" y1="132.08" x2="118.11" y2="49.53" width="0.1524" layer="94"/>
 <wire x1="400.05" y1="68.58" x2="468.63" y2="68.58" width="0.3048" layer="94"/>
-<text x="402.59" y="64.77" size="1.524" layer="94" font="vector">Creator:</text>
-<text x="414.02" y="64.77" size="1.524" layer="94" font="vector">Naomi</text>
+<text x="402.59" y="64.77" size="1.524" layer="94" font="vector">Creator :</text>
+<text x="415.29" y="64.77" size="1.524" layer="94" font="vector">Naomi Wu</text>
 </plain>
 <instances>
 <instance part="EB" gate="LED" x="265.43" y="205.74"/>
@@ -4316,10 +4316,10 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <instance part="EB141" gate="LED" x="414.02" y="125.73"/>
 <instance part="EB142" gate="LED" x="414.02" y="115.57"/>
 <instance part="EB143" gate="LED" x="414.02" y="106.68"/>
-<instance part="U$13" gate="G1" x="189.23" y="308.61"/>
+<instance part="U14" gate="G1" x="189.23" y="308.61"/>
 <instance part="U2" gate="G1" x="170.18" y="359.41"/>
-<instance part="U6" gate="G1" x="105.41" y="208.28"/>
-<instance part="U$7" gate="G1" x="393.7" y="304.8"/>
+<instance part="U6" gate="G1" x="105.41" y="208.28" smashed="yes"/>
+<instance part="U12" gate="G1" x="393.7" y="304.8"/>
 <instance part="C1" gate="C" x="35.56" y="246.38" rot="R90"/>
 <instance part="C2" gate="C" x="44.45" y="246.38" rot="R90"/>
 <instance part="C3" gate="C" x="53.34" y="246.38" rot="R90"/>
@@ -4442,7 +4442,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </instance>
 <instance part="U3" gate="G3" x="304.8" y="332.74"/>
 <instance part="U$34" gate="G$1" x="285.75" y="321.31" smashed="yes">
-<attribute name="VALUE" x="283.845" y="318.135" size="0.8128" layer="96"/>
+<attribute name="VALUE" x="286.385" y="318.135" size="0.8128" layer="96"/>
 </instance>
 <instance part="U$36" gate="G$1" x="13.97" y="322.58" smashed="yes">
 <attribute name="VALUE" x="12.065" y="319.405" size="0.8128" layer="96"/>
@@ -4509,7 +4509,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <instance part="R31" gate="R" x="175.26" y="203.2" rot="R270"/>
 <instance part="R32" gate="R" x="179.07" y="203.2" rot="R270"/>
 <instance part="V_TGT12" gate="VCC" x="168.91" y="219.71" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="52.07" y="320.04"/>
+<instance part="U16" gate="G$1" x="52.07" y="320.04"/>
 <instance part="C26" gate="C" x="27.94" y="317.5" rot="R90"/>
 <instance part="C27" gate="C" x="21.59" y="317.5" rot="R90"/>
 <instance part="C28" gate="C" x="71.12" y="330.2" rot="R90"/>
@@ -4539,9 +4539,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <instance part="V_TGT14" gate="VCC" x="54.61" y="308.61" smashed="yes"/>
 <instance part="R37" gate="R" x="88.9" y="367.03" rot="R270"/>
 <instance part="LED1" gate="LED" x="88.9" y="356.87" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.98" y="359.41" size="1.27" layer="95" rot="R270"/>
+<attribute name="NAME" x="93.98" y="359.41" size="1.27" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="U$6" gate="G$1" x="-2.54" y="218.44" smashed="yes"/>
+<instance part="U11" gate="G$1" x="-2.54" y="218.44" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4623,10 +4623,10 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <junction x="39.37" y="171.45"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G1" pin="GND@1"/>
+<pinref part="U14" gate="G1" pin="GND@1"/>
 <wire x1="207.01" y1="306.07" x2="210.82" y2="306.07" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="306.07" x2="210.82" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G1" pin="GND@2"/>
+<pinref part="U14" gate="G1" pin="GND@2"/>
 <wire x1="210.82" y1="304.8" x2="210.82" y2="303.53" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="303.53" x2="207.01" y2="303.53" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="304.8" x2="214.63" y2="304.8" width="0.1524" layer="91"/>
@@ -4639,7 +4639,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <junction x="210.82" y="304.8"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G1" pin="GND"/>
+<pinref part="U14" gate="G1" pin="GND"/>
 <wire x1="207.01" y1="311.15" x2="214.63" y2="311.15" width="0.1524" layer="91"/>
 <label x="214.63" y="311.15" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -4734,14 +4734,14 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="U$31" gate="G$1" pin="GND"/>
 <wire x1="353.06" y1="289.56" x2="353.06" y2="285.75" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="VSSA"/>
+<pinref part="U12" gate="G1" pin="VSSA"/>
 <wire x1="378.46" y1="297.18" x2="372.11" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="372.11" y1="297.18" x2="372.11" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="VSS1"/>
+<pinref part="U12" gate="G1" pin="VSS1"/>
 <wire x1="372.11" y1="294.64" x2="372.11" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="372.11" y1="292.1" x2="372.11" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="294.64" x2="372.11" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="VSS2"/>
+<pinref part="U12" gate="G1" pin="VSS2"/>
 <wire x1="378.46" y1="292.1" x2="372.11" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="372.11" y1="289.56" x2="353.06" y2="289.56" width="0.1524" layer="91"/>
 <junction x="372.11" y="292.1"/>
@@ -4806,11 +4806,11 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="78.74" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
-<label x="12.7" y="78.74" size="1.778" layer="95"/>
+<label x="5.08" y="78.74" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
-<label x="189.23" y="185.42" size="1.778" layer="95" font="vector"/>
+<label x="186.69" y="185.42" size="1.778" layer="95" font="vector"/>
 <pinref part="U$46" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -4829,29 +4829,14 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="215.9" y="101.6" size="1.27" layer="95" font="vector" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="13"/>
-<wire x1="77.47" y1="109.22" x2="72.39" y2="109.22" width="0.1524" layer="91"/>
-<label x="68.58" y="109.22" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="7"/>
-<wire x1="77.47" y1="93.98" x2="72.39" y2="93.98" width="0.1524" layer="91"/>
-<label x="68.58" y="93.98" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="20"/>
-<wire x1="87.63" y1="93.98" x2="92.71" y2="93.98" width="0.1524" layer="91"/>
-<label x="92.71" y="93.98" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
 <pinref part="U$12" gate="G$1" pin="26"/>
 <wire x1="87.63" y1="78.74" x2="92.71" y2="78.74" width="0.1524" layer="91"/>
-<label x="92.71" y="78.74" size="1.27" layer="95" font="vector"/>
+<label x="93.98" y="78.74" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="TP3" gate="TP" pin="T"/>
 <wire x1="426.72" y1="262.89" x2="426.72" y2="266.7" width="0.1524" layer="91"/>
-<label x="426.72" y="264.16" size="1.27" layer="95" font="vector" rot="R90"/>
+<label x="426.72" y="267.97" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
 <segment>
 <pinref part="USB" gate="G$1" pin="5"/>
@@ -4868,7 +4853,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="U$5" gate="G$1" pin="GND"/>
 <wire x1="27.94" y1="313.69" x2="31.75" y2="313.69" width="0.1524" layer="91"/>
 <wire x1="31.75" y1="313.69" x2="31.75" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="U16" gate="G$1" pin="GND"/>
 <wire x1="31.75" y1="320.04" x2="43.18" y2="320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4892,6 +4877,21 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="24.13" y1="304.8" x2="24.13" y2="300.99" width="0.1524" layer="91"/>
 <pinref part="U$25" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="7"/>
+<wire x1="77.47" y1="93.98" x2="72.39" y2="93.98" width="0.1524" layer="91"/>
+<label x="68.58" y="93.98" size="1.016" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="20"/>
+<wire x1="87.63" y1="93.98" x2="92.71" y2="93.98" width="0.1524" layer="91"/>
+<label x="93.98" y="93.98" size="1.016" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="14"/>
+<wire x1="87.63" y1="109.22" x2="92.71" y2="109.22" width="0.1524" layer="91"/>
+<label x="93.98" y="109.22" size="1.27" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="TGT_SWDIO" class="0">
 <segment>
@@ -4900,7 +4900,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="63.5" y="220.98" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G1" pin="TGT_SWDIO"/>
+<pinref part="U12" gate="G1" pin="TGT_SWDIO"/>
 <wire x1="429.26" y1="325.12" x2="438.15" y2="325.12" width="0.1524" layer="91"/>
 <label x="438.15" y="325.12" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -4912,7 +4912,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="63.5" y="218.44" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G1" pin="TGT_SWCLK"/>
+<pinref part="U12" gate="G1" pin="TGT_SWCLK"/>
 <wire x1="429.26" y1="327.66" x2="438.15" y2="327.66" width="0.1524" layer="91"/>
 <label x="438.15" y="327.66" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -4975,7 +4975,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="5.08" y1="207.01" x2="-2.54" y2="207.01" width="0.1524" layer="91"/>
 <junction x="5.08" y="207.01"/>
 <wire x1="-2.54" y1="207.01" x2="-2.54" y2="214.63" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="U11" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -5023,7 +5023,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="140.97" y="255.27" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G1" pin="SDA"/>
+<pinref part="U14" gate="G1" pin="SDA"/>
 <wire x1="207.01" y1="313.69" x2="214.63" y2="313.69" width="0.1524" layer="91"/>
 <label x="214.63" y="313.69" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -5039,6 +5039,11 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="22.86" y1="105.41" x2="17.78" y2="105.41" width="0.1524" layer="91"/>
 <label x="13.97" y="105.41" size="1.27" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="12"/>
+<wire x1="77.47" y1="106.68" x2="72.39" y2="106.68" width="0.1524" layer="91"/>
+<label x="68.58" y="106.68" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="BTN_B" class="0">
 <segment>
@@ -5053,9 +5058,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="218.44" y="236.22" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="3"/>
-<wire x1="77.47" y1="83.82" x2="72.39" y2="83.82" width="0.1524" layer="91"/>
-<label x="68.58" y="83.82" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="8"/>
+<wire x1="77.47" y1="96.52" x2="72.39" y2="96.52" width="0.1524" layer="91"/>
+<label x="68.58" y="96.52" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -5068,6 +5073,11 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="U8" gate="G$1" pin="WR"/>
 <wire x1="170.18" y1="63.5" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <label x="170.18" y="58.42" size="1.27" layer="95" font="vector" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="9"/>
+<wire x1="77.47" y1="99.06" x2="72.39" y2="99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="99.06" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -5082,9 +5092,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="172.72" y="58.42" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="4"/>
-<wire x1="77.47" y1="86.36" x2="72.39" y2="86.36" width="0.1524" layer="91"/>
-<label x="69.85" y="86.36" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="17"/>
+<wire x1="87.63" y1="101.6" x2="92.71" y2="101.6" width="0.1524" layer="91"/>
+<label x="93.98" y="101.6" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -5098,6 +5108,11 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="167.64" y1="63.5" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="167.64" y="58.42" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="10"/>
+<wire x1="77.47" y1="101.6" x2="72.39" y2="101.6" width="0.1524" layer="91"/>
+<label x="68.58" y="101.6" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="P0.20" class="0">
 <segment>
@@ -5106,9 +5121,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="140.97" y="222.25" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="5"/>
-<wire x1="77.47" y1="88.9" x2="72.39" y2="88.9" width="0.1524" layer="91"/>
-<label x="68.58" y="88.9" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="18"/>
+<wire x1="87.63" y1="99.06" x2="92.71" y2="99.06" width="0.1524" layer="91"/>
+<label x="93.98" y="99.06" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="TGT_NRESET" class="0">
@@ -5124,7 +5139,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="347.98" y1="358.14" x2="347.98" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="358.14" x2="356.87" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="356.87" y1="358.14" x2="356.87" y2="337.82" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="NRESET_FB_ISP"/>
+<pinref part="U12" gate="G1" pin="NRESET_FB_ISP"/>
 <wire x1="356.87" y1="337.82" x2="378.46" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="356.87" y1="337.82" x2="344.17" y2="337.82" width="0.1524" layer="91"/>
 <label x="363.22" y="359.41" size="1.27" layer="95" font="vector" rot="R180"/>
@@ -5132,17 +5147,17 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <junction x="347.98" y="358.14"/>
 <pinref part="S3" gate="G$1" pin="P$2"/>
 </segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="6"/>
-<wire x1="77.47" y1="91.44" x2="72.39" y2="91.44" width="0.1524" layer="91"/>
-<label x="64.77" y="91.44" size="0.8128" layer="95" font="vector"/>
-</segment>
 </net>
 <net name="P0.18" class="0">
 <segment>
 <pinref part="U6" gate="G1" pin="P0.18"/>
 <wire x1="133.35" y1="217.17" x2="140.97" y2="217.17" width="0.1524" layer="91"/>
 <label x="140.97" y="217.17" size="1.27" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="21"/>
+<wire x1="87.63" y1="91.44" x2="92.71" y2="91.44" width="0.1524" layer="91"/>
+<label x="93.98" y="91.44" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="BTN_A" class="0">
@@ -5157,6 +5172,11 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="205.74" y1="238.76" x2="205.74" y2="233.68" width="0.1524" layer="91"/>
 <label x="199.39" y="236.22" size="1.27" layer="95" font="vector"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="4"/>
+<wire x1="77.47" y1="86.36" x2="72.39" y2="86.36" width="0.1524" layer="91"/>
+<label x="68.58" y="86.36" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="P0.16" class="0">
 <segment>
@@ -5169,15 +5189,20 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="175.26" y1="63.5" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="175.26" y="58.42" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="16"/>
+<wire x1="87.63" y1="104.14" x2="92.71" y2="104.14" width="0.1524" layer="91"/>
+<label x="93.98" y="104.14" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U6" gate="G1" pin="P0.00"/>
 <wire x1="133.35" y1="161.29" x2="140.97" y2="161.29" width="0.1524" layer="91"/>
-<label x="140.97" y="161.29" size="1.27" layer="95" font="vector"/>
+<label x="139.7" y="161.29" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G1" pin="SCL"/>
+<pinref part="U14" gate="G1" pin="SCL"/>
 <wire x1="173.99" y1="311.15" x2="167.64" y2="311.15" width="0.1524" layer="91"/>
 <label x="163.83" y="311.15" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -5194,9 +5219,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="13.97" y="107.95" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="25"/>
-<wire x1="87.63" y1="81.28" x2="92.71" y2="81.28" width="0.1524" layer="91"/>
-<label x="92.71" y="81.28" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="11"/>
+<wire x1="77.47" y1="104.14" x2="72.39" y2="104.14" width="0.1524" layer="91"/>
+<label x="68.58" y="104.14" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P1.0" class="0">
@@ -6195,7 +6220,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$13" gate="G1" pin="BYP"/>
+<pinref part="U14" gate="G1" pin="BYP"/>
 <pinref part="C15" gate="C" pin="2"/>
 <wire x1="173.99" y1="306.07" x2="151.13" y2="306.07" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="306.07" x2="151.13" y2="304.8" width="0.1524" layer="91"/>
@@ -6203,7 +6228,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </net>
 <net name="8653_INT1" class="0">
 <segment>
-<pinref part="U$13" gate="G1" pin="INT1"/>
+<pinref part="U14" gate="G1" pin="INT1"/>
 <wire x1="173.99" y1="308.61" x2="167.64" y2="308.61" width="0.1524" layer="91"/>
 <label x="157.48" y="308.61" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -6215,7 +6240,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </net>
 <net name="8653_INT2" class="0">
 <segment>
-<pinref part="U$13" gate="G1" pin="INT2"/>
+<pinref part="U14" gate="G1" pin="INT2"/>
 <wire x1="173.99" y1="303.53" x2="167.64" y2="303.53" width="0.1524" layer="91"/>
 <label x="157.48" y="303.53" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -6223,11 +6248,6 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="U6" gate="G1" pin="P0.27"/>
 <wire x1="133.35" y1="247.65" x2="140.97" y2="247.65" width="0.1524" layer="91"/>
 <label x="140.97" y="247.65" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="2"/>
-<wire x1="77.47" y1="81.28" x2="72.39" y2="81.28" width="0.1524" layer="91"/>
-<label x="66.04" y="81.28" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6272,9 +6292,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="383.54" y="370.84" size="1.27" layer="95" font="vector"/>
 <wire x1="378.46" y1="369.57" x2="373.38" y2="369.57" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="369.57" x2="373.38" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="IF_NRESET"/>
+<pinref part="U12" gate="G1" pin="IF_NRESET"/>
 <wire x1="373.38" y1="340.36" x2="378.46" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="USB_VBUS"/>
+<pinref part="U12" gate="G1" pin="USB_VBUS"/>
 <wire x1="378.46" y1="322.58" x2="373.38" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="322.58" x2="373.38" y2="340.36" width="0.1524" layer="91"/>
 <junction x="373.38" y="340.36"/>
@@ -6301,16 +6321,16 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="435.61" y="369.57" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G1" pin="VOUT33"/>
+<pinref part="U12" gate="G1" pin="VOUT33"/>
 <pinref part="V_TGT11" gate="VCC" pin="VCC"/>
 <wire x1="378.46" y1="312.42" x2="353.06" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="312.42" x2="353.06" y2="313.69" width="0.1524" layer="91"/>
 <label x="353.06" y="316.23" size="1.27" layer="95" font="vector"/>
 <wire x1="353.06" y1="312.42" x2="353.06" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="VDD"/>
+<pinref part="U12" gate="G1" pin="VDD"/>
 <wire x1="378.46" y1="304.8" x2="374.65" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="374.65" y1="304.8" x2="353.06" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="VDDA"/>
+<pinref part="U12" gate="G1" pin="VDDA"/>
 <wire x1="378.46" y1="302.26" x2="374.65" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="374.65" y1="302.26" x2="374.65" y2="304.8" width="0.1524" layer="91"/>
 <junction x="374.65" y="304.8"/>
@@ -6394,7 +6414,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="144.78" y1="306.07" x2="144.78" y2="313.69" width="0.1524" layer="91"/>
 <pinref part="C13" gate="C" pin="2"/>
 <wire x1="135.89" y1="304.8" x2="135.89" y2="313.69" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G1" pin="VDD"/>
+<pinref part="U14" gate="G1" pin="VDD"/>
 <wire x1="173.99" y1="313.69" x2="144.78" y2="313.69" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="313.69" x2="135.89" y2="313.69" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="313.69" x2="135.89" y2="320.04" width="0.1524" layer="91"/>
@@ -6404,7 +6424,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="133.35" y="323.85" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G1" pin="VDDIO"/>
+<pinref part="U14" gate="G1" pin="VDDIO"/>
 <wire x1="207.01" y1="308.61" x2="223.52" y2="308.61" width="0.1524" layer="91"/>
 <pinref part="C16" gate="C" pin="1"/>
 <wire x1="223.52" y1="308.61" x2="223.52" y2="307.34" width="0.1524" layer="91"/>
@@ -6448,16 +6468,11 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="TP4" gate="TP" pin="T"/>
 <wire x1="419.1" y1="262.89" x2="419.1" y2="266.7" width="0.1524" layer="91"/>
-<label x="419.1" y="264.16" size="1.27" layer="95" font="vector" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="14"/>
-<wire x1="87.63" y1="109.22" x2="92.71" y2="109.22" width="0.1524" layer="91"/>
-<label x="92.71" y="109.22" size="1.27" layer="95" font="vector"/>
+<label x="419.1" y="267.97" size="1.27" layer="95" font="vector" rot="R90"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="189.23" x2="190.5" y2="189.23" width="0.1524" layer="91"/>
-<label x="189.23" y="189.23" size="1.778" layer="95" font="vector"/>
+<label x="186.69" y="189.23" size="1.778" layer="95" font="vector"/>
 <pinref part="U$52" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -6502,12 +6517,17 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="55.88" y="308.61" size="1.778" layer="95"/>
 <pinref part="V_TGT14" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="13"/>
+<wire x1="77.47" y1="109.22" x2="72.39" y2="109.22" width="0.1524" layer="91"/>
+<label x="68.58" y="109.22" size="1.27" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R10" gate="R" pin="1"/>
 <wire x1="365.76" y1="356.87" x2="365.76" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="NRESET_FB_BL"/>
+<pinref part="U12" gate="G1" pin="NRESET_FB_BL"/>
 <wire x1="365.76" y1="335.28" x2="378.46" y2="335.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6524,7 +6544,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="341.63" y1="321.31" x2="349.25" y2="321.31" width="0.1524" layer="91"/>
 <wire x1="349.25" y1="321.31" x2="373.38" y2="321.31" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="321.31" x2="373.38" y2="314.96" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="VREGIN"/>
+<pinref part="U12" gate="G1" pin="VREGIN"/>
 <wire x1="373.38" y1="314.96" x2="378.46" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="C25" gate="C" pin="2"/>
 <wire x1="341.63" y1="317.5" x2="341.63" y2="321.31" width="0.1524" layer="91"/>
@@ -6554,7 +6574,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="C29" gate="C" pin="2"/>
 <wire x1="358.14" y1="271.78" x2="355.6" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="271.78" x2="355.6" y2="267.97" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="XTALIN"/>
+<pinref part="U12" gate="G1" pin="XTALIN"/>
 <wire x1="378.46" y1="287.02" x2="355.6" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="287.02" x2="355.6" y2="271.78" width="0.1524" layer="91"/>
 <junction x="355.6" y="271.78"/>
@@ -6566,7 +6586,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="C30" gate="C" pin="2"/>
 <wire x1="370.84" y1="271.78" x2="373.38" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="271.78" x2="373.38" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="XTALOUT"/>
+<pinref part="U12" gate="G1" pin="XTALOUT"/>
 <wire x1="378.46" y1="284.48" x2="373.38" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="284.48" x2="373.38" y2="271.78" width="0.1524" layer="91"/>
 <junction x="373.38" y="271.78"/>
@@ -6625,7 +6645,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="C33" gate="C" pin="2"/>
 <wire x1="76.2" y1="334.01" x2="76.2" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="335.28" x2="71.12" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="OUT"/>
+<pinref part="U16" gate="G$1" pin="OUT"/>
 <wire x1="62.23" y1="320.04" x2="67.31" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="320.04" x2="67.31" y2="335.28" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="335.28" x2="71.12" y2="335.28" width="0.1524" layer="91"/>
@@ -6640,7 +6660,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
-<label x="12.7" y="81.28" size="1.778" layer="95"/>
+<label x="5.08" y="81.28" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -6652,7 +6672,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="U3" gate="G3" pin="1"/>
 <wire x1="278.13" y1="314.96" x2="292.1" y2="314.96" width="0.1524" layer="91"/>
-<label x="279.4" y="312.42" size="1.778" layer="95"/>
+<label x="279.4" y="316.23" size="1.778" layer="95" font="vector"/>
 <pinref part="USB" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="328.93" x2="278.13" y2="328.93" width="0.1524" layer="91"/>
 <wire x1="278.13" y1="328.93" x2="278.13" y2="314.96" width="0.1524" layer="91"/>
@@ -6661,7 +6681,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="U3" gate="G3" pin="6"/>
 <pinref part="R2" gate="R" pin="2"/>
 <wire x1="311.15" y1="314.96" x2="307.34" y2="314.96" width="0.1524" layer="91"/>
-<label x="308.61" y="311.15" size="1.778" layer="95"/>
+<label x="307.34" y="316.23" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -6684,14 +6704,14 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="R3" gate="R" pin="1"/>
 <wire x1="318.77" y1="337.82" x2="320.04" y2="337.82" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="USB_D+"/>
+<pinref part="U12" gate="G1" pin="USB_D+"/>
 <wire x1="320.04" y1="337.82" x2="320.04" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="327.66" x2="378.46" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$7" gate="G1" pin="USB_D-"/>
+<pinref part="U12" gate="G1" pin="USB_D-"/>
 <wire x1="378.46" y1="325.12" x2="320.04" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="R2" gate="R" pin="1"/>
 <wire x1="320.04" y1="325.12" x2="320.04" y2="314.96" width="0.1524" layer="91"/>
@@ -6717,7 +6737,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <net name="N$19" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<pinref part="U$4" gate="G$1" pin="IN"/>
+<pinref part="U16" gate="G$1" pin="IN"/>
 <wire x1="8.89" y1="328.93" x2="21.59" y2="328.93" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="322.58" x2="27.94" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="C27" gate="C" pin="2"/>
@@ -6740,7 +6760,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="140.97" y="242.57" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G1" pin="TGT_RX"/>
+<pinref part="U12" gate="G1" pin="TGT_RX"/>
 <wire x1="429.26" y1="287.02" x2="436.88" y2="287.02" width="0.1524" layer="91"/>
 <label x="436.88" y="287.02" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -6752,7 +6772,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="140.97" y="240.03" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G1" pin="TGT_TX"/>
+<pinref part="U12" gate="G1" pin="TGT_TX"/>
 <wire x1="429.26" y1="289.56" x2="436.88" y2="289.56" width="0.1524" layer="91"/>
 <label x="436.88" y="289.56" size="1.27" layer="95" font="vector"/>
 </segment>
@@ -6764,34 +6784,12 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="133.35" y1="181.61" x2="140.97" y2="181.61" width="0.1524" layer="91"/>
 <label x="139.7" y="181.61" size="1.27" layer="95" font="vector"/>
 </segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="19"/>
-<wire x1="87.63" y1="96.52" x2="92.71" y2="96.52" width="0.1524" layer="91"/>
-<label x="92.71" y="96.52" size="0.8128" layer="95" font="vector"/>
-</segment>
-</net>
-<net name="P0.8" class="0">
-<segment>
-<pinref part="U6" gate="G1" pin="P0.08"/>
-<wire x1="133.35" y1="184.15" x2="140.97" y2="184.15" width="0.1524" layer="91"/>
-<label x="139.7" y="184.15" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="9"/>
-<wire x1="77.47" y1="99.06" x2="72.39" y2="99.06" width="0.1524" layer="91"/>
-<label x="69.85" y="99.06" size="0.8128" layer="95" font="vector"/>
-</segment>
 </net>
 <net name="P0.9" class="0">
 <segment>
 <pinref part="U6" gate="G1" pin="P0.09"/>
 <wire x1="133.35" y1="186.69" x2="140.97" y2="186.69" width="0.1524" layer="91"/>
 <label x="139.7" y="186.69" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="18"/>
-<wire x1="87.63" y1="99.06" x2="92.71" y2="99.06" width="0.1524" layer="91"/>
-<label x="92.71" y="99.06" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P0.10" class="0">
@@ -6801,9 +6799,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="139.7" y="189.23" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="10"/>
-<wire x1="77.47" y1="101.6" x2="72.39" y2="101.6" width="0.1524" layer="91"/>
-<label x="68.58" y="101.6" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="6"/>
+<wire x1="77.47" y1="91.44" x2="72.39" y2="91.44" width="0.1524" layer="91"/>
+<label x="68.58" y="91.44" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P0.11" class="0">
@@ -6813,9 +6811,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="139.7" y="191.77" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="17"/>
-<wire x1="87.63" y1="101.6" x2="92.71" y2="101.6" width="0.1524" layer="91"/>
-<label x="92.71" y="101.6" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="5"/>
+<wire x1="77.47" y1="88.9" x2="72.39" y2="88.9" width="0.1524" layer="91"/>
+<label x="68.58" y="88.9" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P0.12" class="0">
@@ -6825,33 +6823,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <label x="139.7" y="194.31" size="1.27" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="11"/>
-<wire x1="77.47" y1="104.14" x2="72.39" y2="104.14" width="0.1524" layer="91"/>
-<label x="69.85" y="104.14" size="0.8128" layer="95" font="vector"/>
-</segment>
-</net>
-<net name="P0.13" class="0">
-<segment>
-<pinref part="U6" gate="G1" pin="P0.13"/>
-<wire x1="133.35" y1="196.85" x2="140.97" y2="196.85" width="0.1524" layer="91"/>
-<label x="139.7" y="196.85" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="16"/>
-<wire x1="87.63" y1="104.14" x2="92.71" y2="104.14" width="0.1524" layer="91"/>
-<label x="92.71" y="104.14" size="0.8128" layer="95" font="vector"/>
-</segment>
-</net>
-<net name="P0.14" class="0">
-<segment>
-<pinref part="U6" gate="G1" pin="P0.14"/>
-<wire x1="133.35" y1="199.39" x2="140.97" y2="199.39" width="0.1524" layer="91"/>
-<label x="139.7" y="199.39" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="12"/>
-<wire x1="77.47" y1="106.68" x2="72.39" y2="106.68" width="0.1524" layer="91"/>
-<label x="68.58" y="106.68" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="22"/>
+<wire x1="87.63" y1="88.9" x2="92.71" y2="88.9" width="0.1524" layer="91"/>
+<label x="93.98" y="88.9" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P0.15" class="0">
@@ -6859,24 +6833,6 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="U6" gate="G1" pin="P0.15"/>
 <wire x1="133.35" y1="201.93" x2="140.97" y2="201.93" width="0.1524" layer="91"/>
 <label x="139.7" y="201.93" size="1.27" layer="95" font="vector"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="15"/>
-<wire x1="87.63" y1="106.68" x2="92.71" y2="106.68" width="0.1524" layer="91"/>
-<label x="92.71" y="106.68" size="0.8128" layer="95" font="vector"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U6" gate="G1" pin="P0.03"/>
-<wire x1="133.35" y1="168.91" x2="171.45" y2="168.91" width="0.1524" layer="91"/>
-<wire x1="171.45" y1="168.91" x2="196.85" y2="168.91" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="168.91" x2="196.85" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U$51" gate="G$1" pin="P$1"/>
-<wire x1="196.85" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="R30" gate="R" pin="2"/>
-<wire x1="171.45" y1="199.39" x2="171.45" y2="168.91" width="0.1524" layer="91"/>
-<junction x="171.45" y="168.91"/>
 </segment>
 </net>
 <net name="$1" class="0">
@@ -7335,7 +7291,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="LED" gate="LED" pin="-"/>
 <wire x1="438.15" y1="344.17" x2="438.15" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G1" pin="LED_MSD"/>
+<pinref part="U12" gate="G1" pin="LED_MSD"/>
 <wire x1="438.15" y1="340.36" x2="429.26" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7351,14 +7307,14 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <junction x="175.26" y="166.37"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="23"/>
-<wire x1="87.63" y1="86.36" x2="92.71" y2="86.36" width="0.1524" layer="91"/>
-<label x="92.71" y="86.36" size="0.8128" layer="95" font="vector"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="22.86" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
-<label x="12.7" y="83.82" size="1.778" layer="95"/>
+<label x="5.08" y="83.82" size="1.27" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="2"/>
+<wire x1="77.47" y1="81.28" x2="72.39" y2="81.28" width="0.1524" layer="91"/>
+<label x="68.58" y="81.28" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P0.4" class="0">
@@ -7375,9 +7331,9 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <junction x="167.64" y="171.45"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="22"/>
-<wire x1="87.63" y1="88.9" x2="92.71" y2="88.9" width="0.1524" layer="91"/>
-<label x="92.71" y="88.9" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="3"/>
+<wire x1="77.47" y1="83.82" x2="72.39" y2="83.82" width="0.1524" layer="91"/>
+<label x="68.58" y="83.82" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P0.6" class="0">
@@ -7396,31 +7352,26 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <junction x="160.02" y="179.07"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="8"/>
-<wire x1="77.47" y1="96.52" x2="72.39" y2="96.52" width="0.1524" layer="91"/>
-<label x="69.85" y="96.52" size="0.8128" layer="95" font="vector"/>
+<pinref part="U$12" gate="G$1" pin="19"/>
+<wire x1="87.63" y1="96.52" x2="92.71" y2="96.52" width="0.1524" layer="91"/>
+<label x="93.98" y="96.52" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$7" gate="G1" pin="NC4"/>
+<pinref part="U12" gate="G1" pin="NC4"/>
 <pinref part="TP1" gate="TP" pin="T"/>
 <wire x1="405.13" y1="273.05" x2="405.13" y2="262.89" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$7" gate="G1" pin="NC7"/>
+<pinref part="U12" gate="G1" pin="NC7"/>
 <pinref part="TP2" gate="TP" pin="T"/>
 <wire x1="412.75" y1="273.05" x2="412.75" y2="262.89" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0.5" class="0">
-<segment>
-<pinref part="U$12" gate="G$1" pin="21"/>
-<wire x1="87.63" y1="91.44" x2="92.71" y2="91.44" width="0.1524" layer="91"/>
-<label x="92.71" y="91.44" size="0.8128" layer="95" font="vector"/>
-</segment>
 <segment>
 <wire x1="195.58" y1="176.53" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="177.8" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
@@ -7435,12 +7386,17 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <wire x1="163.83" y1="199.39" x2="163.83" y2="176.53" width="0.1524" layer="91"/>
 <junction x="163.83" y="176.53"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="23"/>
+<wire x1="87.63" y1="86.36" x2="92.71" y2="86.36" width="0.1524" layer="91"/>
+<label x="93.98" y="86.36" size="0.8128" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="P0.1/TX" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="24"/>
 <wire x1="87.63" y1="83.82" x2="92.71" y2="83.82" width="0.1524" layer="91"/>
-<label x="92.71" y="83.82" size="0.8128" layer="95" font="vector"/>
+<label x="93.98" y="83.82" size="0.8128" layer="95" font="vector"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G1" pin="P0.01"/>
@@ -7457,7 +7413,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="22.86" y1="86.36" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
-<label x="12.7" y="87.63" size="1.778" layer="95"/>
+<label x="5.08" y="86.36" size="1.27" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="P1.4" class="0">
@@ -7474,7 +7430,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="EN"/>
+<pinref part="U16" gate="G$1" pin="EN"/>
 <wire x1="43.18" y1="317.5" x2="38.1" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="R36" gate="R" pin="2"/>
 <pinref part="R35" gate="R" pin="1"/>
@@ -7485,7 +7441,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="LX"/>
+<pinref part="U16" gate="G$1" pin="LX"/>
 <wire x1="62.23" y1="322.58" x2="64.77" y2="322.58" width="0.1524" layer="91"/>
 <pinref part="L4" gate="L" pin="2"/>
 <wire x1="46.99" y1="328.93" x2="64.77" y2="328.93" width="0.1524" layer="91"/>
@@ -7494,7 +7450,7 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="FB"/>
+<pinref part="U16" gate="G$1" pin="FB"/>
 <wire x1="62.23" y1="317.5" x2="81.28" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="R34" gate="R" pin="1"/>
 <wire x1="81.28" y1="317.5" x2="81.28" y2="314.96" width="0.1524" layer="91"/>
@@ -7508,6 +7464,44 @@ http://www.vishay.com/docs/88751/88751.pdf</description>
 <pinref part="R37" gate="R" pin="2"/>
 <pinref part="LED1" gate="LED" pin="+"/>
 <wire x1="88.9" y1="363.22" x2="88.9" y2="360.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="P0.3" class="0">
+<segment>
+<pinref part="U6" gate="G1" pin="P0.03"/>
+<wire x1="133.35" y1="168.91" x2="171.45" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="168.91" x2="196.85" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="168.91" x2="196.85" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="U$51" gate="G$1" pin="P$1"/>
+<wire x1="196.85" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R30" gate="R" pin="2"/>
+<wire x1="171.45" y1="199.39" x2="171.45" y2="168.91" width="0.1524" layer="91"/>
+<junction x="171.45" y="168.91"/>
+<label x="139.7" y="168.91" size="1.27" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="25"/>
+<wire x1="87.63" y1="81.28" x2="92.71" y2="81.28" width="0.1524" layer="91"/>
+<label x="93.98" y="81.28" size="0.8128" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="P0.14" class="0">
+<segment>
+<pinref part="U6" gate="G1" pin="P0.14"/>
+<wire x1="133.35" y1="199.39" x2="140.97" y2="199.39" width="0.1524" layer="91"/>
+<label x="139.7" y="199.39" size="1.27" layer="95" font="vector"/>
+</segment>
+</net>
+<net name="P0.13" class="0">
+<segment>
+<pinref part="U6" gate="G1" pin="P0.13"/>
+<wire x1="133.35" y1="196.85" x2="140.97" y2="196.85" width="0.1524" layer="91"/>
+<label x="139.7" y="196.85" size="1.27" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="15"/>
+<wire x1="87.63" y1="106.68" x2="92.71" y2="106.68" width="0.1524" layer="91"/>
+<label x="93.98" y="106.68" size="0.8128" layer="95" font="vector"/>
 </segment>
 </net>
 </nets>
