@@ -2,29 +2,29 @@
 
 MicroBit uBit;
 
-/******************Ö¸Áî±í**********************/
-#define SYS_DIS 0x00                //¹Ø±ÕÏµÍ³Õğµ´
-#define SYS_EN  0x01                //´ò¿ªÏµÍ³Õğµ´
-#define LED_OFF 0x02                //¹Ø±ÕLEDÏÔÊ¾
-#define LED_ON  0x03                //´ò¿ªLEDÏÔÊ¾
-#define BLINK_OFF   0x08            //¹Ø±ÕÉÁË¸
-#define BLINK_ON    0x09            //´ò¿ªÉÁË¸                             
-#define SLAVE_MODE  0x10            //´ÓÄ£Ê½
-#define RC_MASTER_MODE  0x18        //ÄÚ²¿RCÊ±ÖÓ
-#define COM_OPTION  0x24            //24:16COM£¬NMOS¡£C£ºCOM£¬PMOS¡£
-#define PWM_DUTY    0xAF            //PWMÁÁ¶È¿ØÖÆ
-/****************Òı½Å¶¨Òå**********************/
+/******************æŒ‡ä»¤è¡¨/Instructions**********************/
+#define SYS_DIS 0x00                //å…³é—­ç³»ç»Ÿéœ‡è¡/Turn off system shock
+#define SYS_EN  0x01                //æ‰“å¼€ç³»ç»Ÿéœ‡è¡/Turn on  system shock
+#define LED_OFF 0x02                //å…³é—­LEDæ˜¾ç¤º/Turn off LED display
+#define LED_ON  0x03                //æ‰“å¼€LEDæ˜¾ç¤º/Turn on LED display
+#define BLINK_OFF   0x08            //å…³é—­é—ªçƒ   /Close blink
+#define BLINK_ON    0x09            //æ‰“å¼€é—ªçƒ   /Open blink            
+#define SLAVE_MODE  0x10            //ä»æ¨¡å¼     /Slave mode
+#define RC_MASTER_MODE  0x18        //å†…éƒ¨RCæ—¶é’Ÿ /Use internal clock 
+#define COM_OPTION  0x24            //24:16COMï¼ŒNMOSã€‚Cï¼šCOMï¼ŒPMOSã€‚
+#define PWM_DUTY    0xAF            //PWMäº®åº¦æ§åˆ¶ /PWM Brightness Control
+/****************å¼•è„šå®šä¹‰ I/O definition**********************/
 
 DigitalOut HT_CS(P0_16);
 DigitalOut HT_RD(P0_22);
 DigitalOut HT_WR(P0_23);
 DigitalOut HT_DAT(P0_21);
 
-static unsigned char show[24] = {0b00011111, 0b10000000, 0b00100000, 0b01000000, 0b01001011, 0b00100000, 0b10000000, 0b00010000, 0b10100010, 0b01010000, 0b10101110, 0b00010000, 0b10000111, 0b01010000, 0b10100100, 0b01010000, 0b10000000, 0b00010000, 0b01001101, 0b00100000, 0b00100000, 0b01000000, 0b00011111, 0b10000000};
+static unsigned char show[24] = {0b00000010, 0b00000000, 0b00000000, 0b01000000, 0b00000001, 0b00000000, 0b01010000, 0b00000000, 0b00000000, 0b00000000, 0b00001000, 0b00000000, 0b00000100, 0b10100000, 0b00000000, 0b00000000, 0b01000000, 0b00000000, 0b00010100, 0b10000000, 0b00000000, 0b00000000, 0b00000001, 0b00000000};
 
 static unsigned char com[12] = {0x00,0x04,0x08,0x0C,0x10,0x14,0x18,0x1C,0x20,0x24,0x28,0x2C};
 
-void HT1632C_Write(unsigned char Data,unsigned char cnt)      //MCUÏòHT1632CĞ´Êı¾İº¯Êı£¬¸ßÎ»ÔÚÇ°
+void HT1632C_Write(unsigned char Data,unsigned char cnt)      //MCUå‘HT1632Cå†™æ•°æ®å‡½æ•°ï¼Œé«˜ä½åœ¨å‰/MCU writes the data to ht1632c, and the high position is in front
 {
     unsigned char i;
     for(i=0; i<cnt; i++) {
@@ -37,11 +37,11 @@ void HT1632C_Write(unsigned char Data,unsigned char cnt)      //MCUÏòHT1632CĞ´Êı
         HT_WR=1;
     }
 }
-void HT1632C_Write_CMD(unsigned char cmd)                     //MCUÏòHT1632cĞ´ÃüÁî
+void HT1632C_Write_CMD(unsigned char cmd)                     //MCUå‘HT1632cå†™å‘½ä»¤/MCU writes commands to ht1632c
 {
     HT_CS=0;
     HT1632C_Write(0x80,3);                                    //ID:100
-    HT1632C_Write(cmd,9);                                     //ÃüÁîÊı¾İÎ»£¬µÚÎ»Îª
+    HT1632C_Write(cmd,9);
     HT_CS=1;
 }
 
@@ -75,7 +75,7 @@ void HT1632C_Write_DAT(unsigned char Addr,unsigned char data[],unsigned char num
     HT_CS=1;
 }
 
-void HT1632C_clr(void)  //ÇåÆÁº¯Êı
+void HT1632C_clr(void)  //æ¸…å±å‡½æ•°/Clear function
 {
     unsigned char i;
     HT_CS=0;
@@ -85,18 +85,18 @@ void HT1632C_clr(void)  //ÇåÆÁº¯Êı
         HT1632C_Write(0,8);
     HT_CS=1;
 }
-void HT1632C_Init(void)     //HT1632C³õÊ¼»¯º¯Êı
+void HT1632C_Init(void)                 //HT1632Cåˆå§‹åŒ–å‡½æ•°/HT1632C Init Function
 {
     HT_CS=1;
     HT_WR=1;
     HT_DAT=1;
-    HT1632C_Write_CMD(SYS_DIS);         //¹Ø±ÕHT1632CÄÚ²¿RCÊ±ÖÓ
-    HT1632C_Write_CMD(COM_OPTION);      //Ñ¡ÔñHT1632C¹¤×÷Ä£Ê½£¬COM£¬NMOSÄ£Ê½
-    HT1632C_Write_CMD(RC_MASTER_MODE);  //Ñ¡ÔñÄÚ²¿RCÊ±ÖÓ
-    HT1632C_Write_CMD(SYS_EN);          //´ò¿ªHT1632CÄÚ²¿RCÊ±ÖÓ
-    HT1632C_Write_CMD(PWM_DUTY);        //PWMÁÁ¶ÈÉèÖÃ
-    HT1632C_Write_CMD(BLINK_OFF);       //¹Ø±ÕÉÁË¸
-    HT1632C_Write_CMD(LED_ON);          //´ò¿ªLEDÏÔÊ¾
+    HT1632C_Write_CMD(SYS_DIS);         //å…³é—­HT1632Cå†…éƒ¨RCæ—¶é’Ÿ/Close the HT1632C internal clock
+    HT1632C_Write_CMD(COM_OPTION);      //é€‰æ‹©HT1632Cå·¥ä½œæ¨¡å¼/Select HT1632C work mode
+    HT1632C_Write_CMD(RC_MASTER_MODE);  //é€‰æ‹©å†…éƒ¨RCæ—¶é’Ÿ/Select internal clock
+    HT1632C_Write_CMD(SYS_EN);          //æ‰“å¼€HT1632Cå†…éƒ¨RCæ—¶é’Ÿ/Open the HT1632C internal clock
+    HT1632C_Write_CMD(PWM_DUTY);        //PWMäº®åº¦è®¾ç½®/Init the PWM Brightness
+    HT1632C_Write_CMD(BLINK_OFF);       //å…³é—­é—ªçƒ   /Close blink
+    HT1632C_Write_CMD(LED_ON);          //æ‰“å¼€LEDæ˜¾ç¤º/ Turn on LED display
 }
 
 
