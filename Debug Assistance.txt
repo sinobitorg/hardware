@@ -1,3 +1,0 @@
-1.The graphical programming of microbit on madecode involves the part of LED display content which needs to be transplanted to the 12*12 matrix display (including Bluetooth adapter code, compass display interface, string display, etc.) 
-
-2.P3,P4 and P5 need to modify the microbit driver.
