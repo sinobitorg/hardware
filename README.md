@@ -7,7 +7,7 @@ A single-board microcontroller for computer education in China<br>
 
 The sino:bit is the first Chinese OSHWA Certified project:<br>
 这块单机板是第一块中国真正被开源协会认证的项目<br>
-<img width="100%" img alt="OSHWA Cert" src="https://i.imgur.com/yR0xlJn.png">
+<img alt="OSHWA Cert" src="https://i.imgur.com/yR0xlJn.png">
 
 Adafruit has an [excellent tutorial written by David Astels](https://learn.adafruit.com/sino-bit-with-arduino/dastels-overview)
 
