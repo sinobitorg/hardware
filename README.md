@@ -11,6 +11,7 @@ The sino:bit is the first Chinese OSHWA Certified project:<br>
 
 ## Quick Start
 Adafruit has an [excellent tutorial written by David Astels](https://learn.adafruit.com/sino-bit-with-arduino/dastels-overview)
+
 If you want to make an enclosure, [you can download CAD files of the board here.](https://a360.co/2mymH0g)
 
 ## Contents 内容
